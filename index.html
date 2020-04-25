@@ -6,17 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
 </head>
 <body>
 
 	<!-- Header -->
-	<header class="header">
+	<header class="header" id="header_j">
 		<div class="container container__header">
 			<nav class="nav__left">
-				<a class="nav__left_link" href="#header">HOME</a>
-				<a class="nav__left_link" href="#projects">ABOUT</a>
-				<a class="nav__left_link" href="#services">TEAM</a>
-				<a class="nav__left_link" href="#video-work">BOOKING</a>
+				<a class="nav__left_link" href="#first-screen_j">HOME</a>
+				<a class="nav__left_link" href="#about_j">ABOUT</a>
+				<a class="nav__left_link" href="#team_j">TEAM</a>
+				<a class="nav__left_link" href="#booking_j">BOOKING</a>
 			</nav>
 			<div class="heder__logo">
 				<svg class="heder__logo_svg" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,10 +25,10 @@
 				</svg>
 			</div>
 			<nav class="nav__right">
-				<a class="nav__right_link" href="#header">MENU</a>
-				<a class="nav__right_link" href="#projects">GALERIE</a>
-				<a class="nav__right_link" href="#services">EVENTS</a>
-				<a class="nav__right_link" href="#video-work">CONTACT</a>
+				<a class="nav__right_link" href="#menu_j">MENU</a>
+				<a class="nav__right_link" href="#events_j">EVENTS</a>
+				<a class="nav__right_link" href="#galerei_j">GALERIE</a>
+				<a class="nav__right_link" href="#contact_j">CONTACT</a>
 			</nav>
 			<div class="header__burger">
 				<button class="header__burger_btn">
@@ -38,7 +39,7 @@
 
 	</header>
 
-	<section class="first-screen">
+	<section class="first-screen" id="first-screen_j">
 		<div class="container container__first-screen">
 			<div class="first-screen__time">
 				<h4 class="sub-title sub-title__min">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</h4>
@@ -48,9 +49,9 @@
 				<h1 class="top-title">hungry people</h1>
 				<div class="line"></div>
 				<div class="first-screen__content_buttons">
-					<button class="btn">BOOK TABLE</button>
-					<button class="btn">EXPLORE</button>
-					<button class="btn btn__circle"><img src="img/first-screen/down-arrow.png" alt="#"></button>
+					<a href="#booking_j" class="btn">BOOK TABLE</a>
+					<a href="#about_j" class="btn">EXPLORE</a>
+					<a class="btn btn__circle" href="#about_j"><img src="img/first-screen/down-arrow.png" alt="#"></a>
 				</div>
 			</div>
 			<div class="first-screen__soc">
@@ -68,7 +69,7 @@
 	</section> <!-- end/First-screen -->
 
 	<!-- About-us -->
-	<section class="about-us">
+	<section class="about-us" id="about_j">
 		<div class="container container__about-us">
 			<div class="about-us__content">
 				<h2 class="title">about us</h2>
@@ -87,7 +88,7 @@
 	</section> <!-- end/About-us -->
 
 	<!-- Team -->
-	<section class="team">
+	<section class="team" id="team_j">
 		<div class="container container__team">
 			<div class="team__header">
 				<p class="above-title">OUR TEAM</p>
@@ -111,7 +112,7 @@
 	</section> <!-- end/About-us -->
 
 	<!-- Booking -->
-	<section class="booking">
+	<section class="booking" id="booking_j">
 		<div class="container container__booking">
 			<div class="booking__content">
 				<div class="booking__forms">
@@ -178,7 +179,7 @@
 	</section> <!-- end/Specialties -->
 	
 	<!-- Menu -->
-	<section class="menu">
+	<section class="menu " id="menu_j">
 		<div class="container container__menu">
 			<div class="menu__header">
 				<h2 class="title">DELICIOUS MENU</h2>
@@ -290,7 +291,7 @@
 	</section> <!-- end/menu -->
 
 	<!-- Events -->
-	<section class="events">
+	<section class="events" id="events_j">
 		<div class="container container__events">
 			<div class="events__header">
 				<p class="above-title">PRIVATE EVENTS</p>
@@ -311,7 +312,7 @@
 	</section> <!-- end/Events -->
 
 	<!-- Foto-galerie -->
-	<section class="foto-galerei">
+	<section class="foto-galerei" id="galerei_j">
 		<div class="container container__foto-galerei">
 			<div class="foto-galerei_item">
 				<img src="img/foto-galerei/galerei-1.jpg" alt="foto">
@@ -329,7 +330,7 @@
 	</section> <!-- end/Foto-galerie -->
 
 	<!-- Contact -->
-	<section class="contact">
+	<section class="contact" id="contact_j">
 		<div class="container container__contact">
 			<div class="contact__header">
 				<h2 class="title">CONTACT</h2>
@@ -401,5 +402,7 @@
 
 
 <script src="script.js"></script>
+<script src="s-script.js"></script>
+
 </body>
 </html>
