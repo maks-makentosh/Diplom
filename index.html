@@ -29,7 +29,13 @@
 				<a class="nav__right_link" href="#services">EVENTS</a>
 				<a class="nav__right_link" href="#video-work">CONTACT</a>
 			</nav>
+			<div class="header__burger">
+				<button class="header__burger_btn">
+		            <span class="header__burger_item"></span>
+	        	</button>
+	   		</div>
 		</div>
+
 	</header>
 
 	<section class="first-screen">
@@ -127,16 +133,9 @@
                     <label>
                         <input type="email" name="email-address" placeholder="Email">
                     </label>
-                    <select name="People">
-                        <option value="0" selected="">People</option>
-                        <option value="1">
-                            Solo</option>
-                        <option value="2">
-                            Two persons</option>
-                        <option value="3">
-                            Three persons</option>
-                        <option value="4">Ather</option>
-                    </select>
+                   <label>
+                    <input type="text" name="people" placeholder="People">
+                    </label>
                     <label>
                         <input type="time" name="time" value="12:00">
                     </label> 
@@ -190,14 +189,17 @@
 			</div>
 			<div class="menu__buttons">
 				<nav class="menu__nav">
-					<a href="#" class="menu__nav_link">SOUPE</a>
 					<a href="#" class="menu__nav_link">PIZZA</a>
+					<a href="#" class="menu__nav_link">SOUPE</a>
 					<a href="#" class="menu__nav_link">PASTA</a>
 					<a href="#" class="menu__nav_link">DESERT</a>
 					<a href="#" class="menu__nav_link">WINE</a>
 					<a href="#" class="menu__nav_link">BEER</a>
 					<a href="#" class="menu__nav_link">DRINKS</a>
 				</nav>
+			</div>
+			<div class="menu__burger">
+				<button class="btn">PIZZA <img src="img/first-screen/down-arrow.png" alt="#"></button>
 			</div>
 			<div class="menu__content">
 				<div class="menu__content_item">
@@ -381,9 +383,20 @@
 	<!-- Footer -->
 	<footer class="footer">
 		<div class="conteiner conteiner__footer">
+			<div class="footer__soc">
+				<div class="soc__wrap">
+					<a href="#"><img class="soc__icon" src="img/first-screen/facebook.png" alt="facebook"></a>
+				</div>
+				<div class="soc__wrap">
+					<a href="#"><img class="soc__icon" src="img/first-screen/twitter.png" alt="twitter"></a>
+				</div>
+				<div class="soc__wrap">
+					<a href="#"><img class="soc__icon" src="img/first-screen/instagram.png" alt="instagram"></a>
+				</div>
+			</div>
 			<h4 class="sub-title sub-title__min">© Copyright Mindblister  2019</h4>
 		</div>
-	</footer>
+	</footer> <!-- end/Footer -->
 
 
 
